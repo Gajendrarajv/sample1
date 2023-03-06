@@ -1,0 +1,13 @@
+import pygame
+import random
+
+# initialize Pygame
+pygame.init()
+
+# define window dimensions
+window_width = 640
+window_height = 480
+
+# create game window
+game_window = pygame.display.set_mode((window_width, window_height))
+pygame.display.set_caption('Snake Game')
